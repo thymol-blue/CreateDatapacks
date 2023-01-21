@@ -1,0 +1,1 @@
+execute if score activeWorm wormInfo matches 0 run execute as @e[type=alexsmobs:void_portal] run data merge entity @s {ExitDimension: "minecraft:the_end", DX: 100, DZ: 0, DY: 50}
